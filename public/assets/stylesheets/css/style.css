@@ -1,6 +1,6 @@
 @font-face{
   font-family: Hack
-  source: url('/hack.ttf');
+  source: url('/Hack-Regular.ttf');
 }
 
 body{
@@ -70,4 +70,8 @@ nav .active{
 
 .post{
   padding: 20px;
+}
+
+code, pre{
+  background-color: #D3D3D3;
 }
