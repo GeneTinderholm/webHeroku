@@ -75,3 +75,7 @@ nav .active{
 code, pre{
   background-color: #D3D3D3;
 }
+
+.content p{
+  word-wrap: break-word;
+}
