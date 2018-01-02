@@ -87,11 +87,13 @@ app.use(morganToolkit());
 // ----------------------------------------
 // Routes
 // ----------------------------------------
-app.use('/', (req, res) => {
-  req.flash('Hi!');
-  res.render('welcome/index');
-});
+const index = require('./routers/index');
+const blog = require('./routers/blog');
+const projects = require('./routers/projects');
 
+app.use('/', index);
+app.use('/blog', blog);
+app.use('/projects', projects);
 
 // ----------------------------------------
 // Template Engine

@@ -1,0 +1,11 @@
+<div class="content">
+{{#each posts as |post|}}
+  <div class="post">
+    <a href="/blog/{{post.id}}">{{post.title}}</a>
+  </div>
+{{/each}}
+</div>
+
+  <script>
+    $('#blog').toggleClass('active');
+  </script>

@@ -1,0 +1,73 @@
+@font-face{
+  font-family: Hack
+  source: url('/hack.ttf');
+}
+
+body{
+  background-color: #2F343F;
+}
+
+nav .active{
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #268bd2;
+}
+
+#nav-logo{
+  transition: transform 1s ease-in-out;
+}
+
+#nav-logo:hover{
+  transform: rotate(360deg);
+}
+
+#top-back{
+  width: 100%;
+  height: 300px;
+  background-color: #268bd2;
+}
+
+.content{
+  font-family: Helvetica, sans-serif;
+  margin-top: -200px;
+  background-color: #FFF;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #268bd2;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.content hr{
+  margin: 10px 0px 10px 0px;
+}
+
+#info-div h1{
+  margin-top: 15px;
+  font-family: Hack;
+}
+
+#info-div h4{
+  margin-bottom: 15px;
+  font-family: Hack;
+}
+
+#pic-div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #2F343F; */
+}
+
+#pic-div img{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2F343F;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.post{
+  padding: 20px;
+}
