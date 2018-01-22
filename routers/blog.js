@@ -4,7 +4,7 @@ const posts = require('../lib/master.json');
 
 router.get('/', function(req, res, next) {
   titleArray = posts.map(x => {
-    return {id: x.id, title: x.title};
+    return {id: x.id, title: x.title, date: x.date};
   });
   titleArray.reverse();
   res.render('blog/blog', {posts: titleArray});

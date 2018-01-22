@@ -1,11 +1,20 @@
 <div class="content">
-{{#each posts as |post|}}
-  <div class="post">
-    <a href="/blog/{{post.id}}">{{post.title}}</a>
-  </div>
-{{/each}}
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Date Posted</th>
+      </tr>
+    </thead>
+    {{#each posts as |post|}}
+    <!-- <div class="post"> -->
+      <tr><td><a href="/blog/{{post.id}}">{{post.title}}</a></td>
+        <td class="text-muted">{{post.date}}</td></tr>
+  <!-- </div> -->
+  {{/each}}
+</table>
 </div>
 
-  <script>
-    $('#blog').toggleClass('active');
-  </script>
+<script>
+  $('#blog').toggleClass('active');
+</script>

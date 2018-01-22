@@ -1,0 +1,7 @@
+<div class="content">
+  <table class="table table-striped">
+    {{#each projects as |project|}}
+      <tr><td><a href="/projects/{{project.id}}">{{project.title}}</td></tr>
+    {{/each}}
+  </table>
+</div>

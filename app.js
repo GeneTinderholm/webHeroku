@@ -90,10 +90,12 @@ app.use(morganToolkit());
 const index = require('./routers/index');
 const blog = require('./routers/blog');
 const projects = require('./routers/projects');
+const contact = require('./routers/contact');
 
 app.use('/', index);
 app.use('/blog', blog);
 app.use('/projects', projects);
+app.use('/contact', contact);
 
 // ----------------------------------------
 // Template Engine
