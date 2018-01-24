@@ -91,11 +91,13 @@ const index = require('./routers/index');
 const blog = require('./routers/blog');
 const projects = require('./routers/projects');
 const contact = require('./routers/contact');
+const resume = require('./routers/resume');
 
 app.use('/', index);
 app.use('/blog', blog);
 app.use('/projects', projects);
 app.use('/contact', contact);
+app.use('/resume', resume);
 
 // ----------------------------------------
 // Template Engine
