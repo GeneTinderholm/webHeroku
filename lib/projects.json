@@ -1,8 +1,26 @@
 [
   {
     "id": "0",
+    "title": "Open Meta",
+    "description": "Web application built using a Node.js backend integrated with the OpenCPU framework and a react frontend. It allows users to browse scientific studies and preform meta-analyses. Users can submit studies that are automatically tracked and made available for other users.",
+    "url": "https://github.com/GeneTinderholm/openMeta"
+  },
+  {
+    "id": "1",
     "title": "Hive-Source",
     "description": "Web application built using JavaScript and WebSockets to allow team members to collaborate on a wide range of tasks in real-time. Designed to allow tracking of responsibilities as well as feedback on project urgency. Don't worry, sign-up is free.",
-    "url": "https://arcane-woodland-86124.herokuapp.com/"
+    "url": "https://github.com/GeneTinderholm/hivesource"
+  },
+  {
+    "id": "2",
+    "title": "Mimir's Market",
+    "description": "Online marketplace build with both SQL and NoSQL database integration. Application tracks purchases by with back-end analytics such as site revenue and the ability to view revenue breakdown by item category.",
+    "url": "https://github.com/GeneTinderholm/project_mimirs_market"
+  },
+  {
+    "id": "3",
+    "title": "Ponz.io",
+    "description": "Social networking app using JavaScript and MongoDB. Users who recuit others are awarded points that can be used in the store. The network of those recruited by the user is dynamically rendered onto the user’s homepage.",
+    "url": "https://github.com/GeneTinderholm/project_ponz"
   }
 ]

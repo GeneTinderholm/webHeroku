@@ -9,7 +9,7 @@ router.get('/', (req, res, next) => {
   //    res.contentType("application/pdf");
   //    res.send(data);
   // });
-  var data = fs.readFileSync('./public/resumeV1.pdf');
+  var data = fs.readFileSync('./public/resumeV3.pdf');
   res.contentType("application/pdf");
   res.send(data);
 });
