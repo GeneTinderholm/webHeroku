@@ -92,12 +92,14 @@ const blog = require('./routers/blog');
 const projects = require('./routers/projects');
 const contact = require('./routers/contact');
 const resume = require('./routers/resume');
+const about = require('./routers/about');
 
 app.use('/', index);
 app.use('/blog', blog);
 app.use('/projects', projects);
 app.use('/contact', contact);
 app.use('/resume', resume);
+app.use('/about', about);
 
 // ----------------------------------------
 // Template Engine
